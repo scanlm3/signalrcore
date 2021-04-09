@@ -126,7 +126,7 @@ hub_connection = HubConnectionBuilder()\
     ...
     .build()
 ```
-## Configuring aditional headers
+## Configuring additional headers
 ```python
 hub_connection = HubConnectionBuilder()\
             .with_url(server_url,
@@ -138,7 +138,7 @@ hub_connection = HubConnectionBuilder()\
             ...
             .build()
 ```
-## Configuring aditional querystring parameters
+## Configuring additional querystring parameters
 ```python
 server_url ="http.... /?myquerystringparam=134&foo=bar"
 connection = HubConnectionBuilder()\
